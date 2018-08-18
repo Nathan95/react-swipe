@@ -312,6 +312,7 @@ class Card extends React.Component {
 
 	render() {
 		return (
+			
 			<div
 				id={"card" + this.props.no}
 				className={"card color" + this.props.no}
@@ -323,7 +324,7 @@ class Card extends React.Component {
 				onTouchMove={this.handleTouchMove}
 				onTouchEnd={this.handleTouchEnd}
 			>
-				<div className="text">DRAG THE CARD LEFT OR RIGHT</div>
+
 			</div>
 		);
 	}

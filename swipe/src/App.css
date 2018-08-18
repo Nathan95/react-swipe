@@ -11,6 +11,21 @@
 	overflow: hidden;
 }
 
+.header{
+	text-align: center;
+	margin-top: 40px;
+	font-size: 7em;
+	font-style: italic;
+	color:red;
+}
+
+.sub-header{
+	text-align: center;
+	margin-top: 10px;
+	font-size: 2.5em;
+	color:grey;
+}
+
 .card {
 	width: 300px;
 	height: 400px;
@@ -33,43 +48,27 @@
 	transform: perspective(800px);
 }
 .color0 {
-	background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+	background-image: url('assets/1.jpg');
+	background-size:160%;
 }
 .color1 {
-	background-image: linear-gradient(
-		to top,
-		#3f51b1 0%,
-		#5a55ae 13%,
-		#7b5fac 25%,
-		#8f6aae 38%,
-		#a86aa4 50%,
-		#cc6b8e 62%,
-		#f18271 75%,
-		#f3a469 87%,
-		#f7c978 100%
-	);
+	background-image: url('assets/2.jpg');
+	background-size:140%;
 }
 
 .color2 {
-	background-image: linear-gradient(
-		to top,
-		#dbdcd7 0%,
-		#dddcd7 24%,
-		#e2c9cc 30%,
-		#e7627d 46%,
-		#b8235a 59%,
-		#801357 71%,
-		#3d1635 84%,
-		#1c1a27 100%
-	);
+	background-image: url('assets/3.jpg');
+	background-size:200%;
 }
 
 .color3 {
-	background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
+	background-image: url('assets/4.jpg');
+	background-size:100%;
 }
 
 .color4 {
-	background-image: linear-gradient(to top, #c7eafd 0%, #e8198b 100%);
+	background-image: url('assets/5.jpg');
+	background-size:100%;
 }
 
 .text {
